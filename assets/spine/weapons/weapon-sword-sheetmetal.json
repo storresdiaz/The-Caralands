@@ -1,0 +1,39 @@
+{
+"skeleton": {
+	"hash": "+O3UAMuFolQ",
+	"spine": "4.0.64",
+	"x": -250.44,
+	"y": -160.78,
+	"width": 485,
+	"height": 368,
+	"images": "../Assets/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Weapons/sword-sheetmetal", "bone": "root", "attachment": "Weapons/sword-sheetmetal" },
+	{ "name": "bounds", "bone": "root", "attachment": "fullbounds" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bounds": {
+				"fullbounds": {
+					"type": "boundingbox",
+					"vertexCount": 13,
+					"vertices": [ -248.48, 204.85, -240.09, 133.5, 119.46, -100.14, 106.87, -123.92, 119.46, -161.7, 147.44, -108.53, 213.19, -151.9, 235.58, -147.71, 236.98, -123.92, 167.03, -83.35, 181.02, -45.58, 146.04, -48.38, 140.45, -67.96 ]
+				}
+			},
+			"Weapons/sword-sheetmetal": {
+				"Weapons/sword-sheetmetal": { "x": -7.94, "y": 23.22, "width": 485, "height": 368 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

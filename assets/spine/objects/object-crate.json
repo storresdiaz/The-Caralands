@@ -1,0 +1,51 @@
+{
+"skeleton": {
+	"hash": "MIqdqW069lU",
+	"spine": "4.0.64",
+	"x": -110.58,
+	"y": 1.35,
+	"width": 224,
+	"height": 208,
+	"images": "../Assets/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Objects/Object-Crate", "bone": "root", "attachment": "Objects/Object-Crate" },
+	{ "name": "bounds", "bone": "root", "attachment": "fullbounds" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bounds": {
+				"fullbounds": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -111.42, 2.95, 112.18, 2.07, 112.18, 209.01, -110.55, 209.01 ]
+				}
+			},
+			"Objects/Object-Crate": {
+				"Objects/Object-Crate": { "x": 1.42, "y": 105.35, "width": 224, "height": 208 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {},
+	"hit": {
+		"slots": {
+			"Objects/Object-Crate": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.0333, "color": "fcd5d5ff" },
+					{ "time": 0.0667, "color": "fda6a6ff" },
+					{ "time": 0.1, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}
